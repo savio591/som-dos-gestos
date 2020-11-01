@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: yarn install && yarn run build
+    command: yarn run start
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode@5.7.1:GDba64T6G+TUi1qmc6BE3A==
