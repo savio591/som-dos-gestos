@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+#page-map {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#create-itens {
+    padding: 80px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+
+#page-map aside{
+    width: 100%;
+    background: linear-gradient(329.54deg, #000 0%, #003771 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#page-map aside h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 64px;
+}
+#page-map aside p {
+    line-height: 28px;
+    margin-top: 24px;
+
+}
+#page-map aside footer{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+#page-map aside footer strong{
+    
+    font-weight: 700;
+    background-color: #003770;
+    text-align: center;
+}
+
+#page-map .leaflet-container{
+    z-index: 5;
+}
+
+#page-map .create-orphanege{
+    z-index: 10;
+    right: 40px;
+    bottom: 40px;
+    position: absolute;
+    background: #003770;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#ffffff;
+    transition: background-color 0.5s;
+    width: 173.45px;
+    height: 53.98px;
+    background: #003770;
+    border-radius: 50px;
+}
+#page-map .create-orphanege:hover {
+    background: #3774B4;
+
+}
+
+#page-map .create-orphanege {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+
+    color: #E5E5E5;
+
+}
+#page-map .map-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: none;
+
+}
+#page-map .map-popup .leaflet-popup-content {
+    color: #003770;
+    font-size: 20px;
+/*    font-weight: bold;  */
+    margin: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#page-map .map-popup .leaflet-popup-content a {
+    width: 40px;
+    height: 40px;
+    background: #003770;
+    box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-map .map-popup .leaflet-popup-tip-container{
+    display: none;
+}
