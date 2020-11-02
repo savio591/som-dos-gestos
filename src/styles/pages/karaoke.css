@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#container {
+  font-family: "Raleway", sans-serif;
+  width: 100vw;
+  height: 100vh;
+background: #702D8B;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.camera_interprete {
+    width: 93vw;
+    height: 50vh;
+    background: #5A1474;
+border-radius: 32px;
+margin: 24px 0;
+}
+
+.letras {
+    width: 93vw;
+    height: 50vh;
+    background: #5A1474;
+border-radius: 32px;
+margin: 24px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+/* Testeeee */
+.letras p {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.word {
+  position: relative;
+  white-space: nowrap;
+  color: white;
+}
+
+.word::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #6AEE3C;
+  overflow: hidden;
+  width: 100%;
+  animation: run-text 5s;
+  animation-fill-mode: backwards;
+  animation-delay: 1s;
+}
+
+.word2 {
+  position: relative;
+  white-space: nowrap;
+  color: white;
+}
+
+.word2::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #6AEE3C;
+  overflow: hidden;
+  width: 100%;
+  animation: run-text 5s;
+  animation-fill-mode: backwards;
+  animation-delay: 6s;
+}
+
+.word3 {
+  position: relative;
+  white-space: nowrap;
+  color: white;
+}
+
+.word3::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #6AEE3C;
+  overflow: hidden;
+  width: 100%;
+  animation: run-text 5s;
+  animation-fill-mode: backwards;
+  animation-delay: 11s;
+}
+
+.word4 {
+  position: relative;
+  white-space: nowrap;
+  color: white;
+}
+
+.word4::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #6AEE3C;
+  overflow: hidden;
+  width: 100%;
+  animation: run-text 5s;
+  animation-fill-mode: backwards;
+  animation-delay: 18s;
+}
+
+@keyframes run-text {
+  from { width: 0 }
+  to { width: 100% }
+}

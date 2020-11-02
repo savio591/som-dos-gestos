@@ -5,6 +5,8 @@ import "../styles/pages/dashboard.css";
 import settings_icon from "../images/settings.svg";
 import search_icon from "../images/search.svg";
 
+import foto1 from "../images/foto1.png"
+
 function Dashboard() {
   return (
     <div id="container">
@@ -38,16 +40,62 @@ function Dashboard() {
           </div>
 
             <div className="listas">
-            
                 <div className="lista">
-                    <p>Resolve</p>
+                    <div className="lista_left">
+                        <div className="lista_l1">
+                            <div className="foto">
+                                <img src={foto1} alt="avatar" />
+                            </div>
+                        </div>
+                        <div className="lista_l2">
+                            <p>Laura</p>
+                            <p>1349pts.</p>
+                        </div>
+                    </div>
+                    <div className="lista_right">
+                        <div className="lista_r1">
+                            <p>Nv. 12</p>
+                        </div>
+                        <div className="lista_r2">
+                            <p>1º Lugar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="lista">
+                    <div className="lista_left">
+                        <div className="lista_l1">
+                            <div className="foto">
+                                <img src={foto1} alt="avatar" />
+                            </div>
+                        </div>
+                        <div className="lista_l2">
+                            <p>Stephanie</p>
+                            <p>1291pts.</p>
+                        </div>
+                    </div>
+                    <div className="lista_right">
+                        <div className="lista_r1">
+                            <p>Nv. 12</p>
+                        </div>
+                        <div className="lista_r2">
+                            <p>2º Lugar</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
       </div>
 
-
+      <div className="rodape">
+        <div className="rdp_1">
+            <p>Aprender</p>
+        </div>
+        <div className="rdp_2">
+            <p>Desafiar</p>
+        </div>
+      </div>
 
     </div>
   );

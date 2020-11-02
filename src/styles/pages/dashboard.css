@@ -101,3 +101,74 @@ color: #FFFFFF;
 .texto_corpo {
     color: #ffffff;
 }
+
+.lista {
+    background: #BB6BD9;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 12px 0;
+}
+
+.lista_left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lista_right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lista_l1 {
+}
+
+.lista_r2 {
+    margin: 8px;
+}
+
+.rodape {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 64px;
+    width: 100vw;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.rdp_1 {
+    background: #5C23FF;
+    width: 50%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rdp_2 {
+    background: #D96BBA;
+    width: 50%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
