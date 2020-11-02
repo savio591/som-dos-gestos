@@ -90,10 +90,15 @@ function Dashboard() {
 
       <div className="rodape">
         <div className="rdp_1">
-            <p>Aprender</p>
+            <Link to="/musicas/tendencias">
+                <p>Aprender</p>        
+            </Link>
         </div>
         <div className="rdp_2">
-            <p>Desafiar</p>
+            <Link to="/musicas/tendencias">
+                <p>Desafiar</p>        
+            </Link>
+            
         </div>
       </div>
 
