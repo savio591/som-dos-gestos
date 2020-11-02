@@ -50,7 +50,7 @@ function Musicas() {
                 <div className="lista">
                     <div className="lista_left">
                         <div className="lista_l1">
-                            <Link to="/dashboard">
+                            <Link to="/karaoke">
                                 <div className="foto">
                                     <img src={play_icon} alt="avatar" />
                                 </div>

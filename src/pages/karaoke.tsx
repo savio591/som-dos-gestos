@@ -14,6 +14,10 @@ function Karaoke() {
 
         </div>
 
+        <div className="camera_usuario">
+        
+        </div>
+
         <div className="letras">
             <p>
                 <span data-text={letra} className="word">{letra}</span>

@@ -33,6 +33,24 @@ flex-direction: column;
 
 }
 
+
+.camera_usuario {
+    position: absolute;
+    right: 16px;
+    top: 10vh;
+    width: 140px;
+    height: 230px;
+    background: #ffffff;
+border-radius: 32px;
+margin: 24px 0;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+
+
 /* Testeeee */
 .letras p {
     font-family: Raleway;
